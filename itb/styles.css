@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: yellow;
+}
+
+tbody td {
+    background-color: #f0f0f0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+thead th {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.home {
+    background-color: pink;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    vertical-align: middle; /* Centers vertically */
+    text-align: center; /* Centers horizontally */
+    display: table-cell; /* Ensures full height and vertical centering */
+}
+
+td, th {
+    width: 20%;
+    height: 100px;
+}
